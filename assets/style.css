@@ -84,12 +84,27 @@ h3 {
     color: #ccc;
 }
 
+h4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 150%;
+    color:#dc9ae6;
+    font-weight: bold;
+}
+
 .badge a {
     font-size:x-large;
 }
 
 .modal img {
     border: solid 3px black;
+}
+
+h4:before, h4:after {
+    flex: 1 1;
+    content: "";
+    border-bottom: 3px solid #dc9ae6;
+    margin: auto;
 }
 
 @media only screen and (max-width: 475px) {
